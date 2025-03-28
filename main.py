@@ -1,0 +1,11 @@
+from tkinter import*
+window = Tk()
+window.title('Tkinter Sample Window')
+window.geometry('300x300')
+greeting = Label(text="Hello user", fg='red, bg=white')
+button = Button(text="click me", bg='red', fg='white')
+entry = Entry(fg='blue', bg='yelllw')
+greeting.pack()
+button.pack()
+entry.pack()
+window.mainloop()
